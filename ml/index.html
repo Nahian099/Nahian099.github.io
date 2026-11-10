@@ -70,14 +70,14 @@ Reached AUC 0.771 on a low-signal, high-dimensional prediction task
 where tuned classical machine learning baselines stayed near chance (AUC
 0.566 or lower), and the trend held on a second, independent dataset
 roughly 3x larger.</p></li>
-<li><p><strong>LLM fine-tuning and input design (ongoing).</strong>
-Benchmarked four serialization schemes for feeding structured tabular
-data to pretrained language models under a fixed token budget.
-Compressed encodings beat verbose prose (AUC 0.71 vs. 0.63) by fitting
-far more records into the context window. Designed an
-embedding-injection scheme that decouples information per record from
-token cost and extends to unseen inputs without adding
-parameters.</p></li>
+<li><p><strong>LLM fine-tuning and input design (completed as part of
+doctoral dissertation, 2026).</strong> Benchmarked four serialization
+schemes for feeding structured tabular data to pretrained language
+models under a fixed token budget. Compressed encodings beat verbose
+prose (AUC 0.71 vs. 0.63) by fitting far more records into the context
+window. Designed an embedding-injection scheme that decouples
+information per record from token cost and extends to unseen inputs
+without adding parameters.</p></li>
 <li><p><strong>Model evaluation and explainability.</strong> Built an
 attribution system combining feature ablation, gradient-based
 attribution (Captum), and SHAP, with a leave-one-component-out ablation
