@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Nahian Tahmin, Ph.D. | Machine Learning Engineer</title><style>body{margin:0;background:#f4f5f7;color:#1c2330;font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+main{max-width:820px;margin:0 auto;background:#fff;padding:40px 44px 56px}
+h1{font-size:2rem;margin:0 0 4px}h2{font-size:.95rem;letter-spacing:.08em;text-transform:uppercase;border-bottom:2px solid #1f4e79;padding-bottom:4px;margin:32px 0 12px;color:#1f4e79}
+p{margin:6px 0}ul{margin:4px 0 10px;padding-left:20px}li{margin:5px 0}a{color:#1f4e79}
+.sub{font-size:1.05rem;color:#444;margin:0 0 6px}.contact{font-size:.93rem;margin-bottom:8px}
+.btn{display:inline-block;margin-top:12px;background:#1f4e79;color:#fff;text-decoration:none;padding:9px 16px;border-radius:6px;font-size:.92rem}
+.upd{font-size:.8rem;color:#777;margin-top:36px}
+@media(max-width:600px){main{padding:24px 18px 40px}h1{font-size:1.6rem}}
+@media print{body{background:#fff}.btn{display:none}main{padding:0}}</style></head><body><main>
+<h1>Nahian Tahmin, Ph.D.</h1>
+<p class="sub">Machine Learning Engineer | AI Engineer | Applied Scientist</p>
+<p class="contact"><a
+href="mailto:nahi_tahmee@ymail.com">nahi_tahmee@ymail.com</a> |
+<a
+href="https://www.linkedin.com/in/nahian-tahmin-687164193/">LinkedIn</a>
+| <a href="https://github.com/Nahian099">GitHub</a> | <a
+href="https://scholar.google.com/citations?user=kD25pNYAAAAJ&amp;hl=en">Google
+Scholar</a> | <a href="https://nahian099.github.io/ml/">Live
+CV</a> | Open to relocation</p>
+<a class="btn" href="Nahian_Tahmin_CV.pdf">Download PDF</a>
+<h2>Professional Summary</h2>
+<p>Machine learning engineer with a Ph.D. in Data Science and
+Engineering and a B.Eng. in Software Engineering. Designs, trains, and
+evaluates deep learning models end to end in Python and PyTorch:
+multimodal Transformer architectures, large language model (LLM)
+fine-tuning, and explainable AI tooling on high-dimensional data in the
+cloud. Builds reproducible ML pipelines with strong baselines,
+ablations, and validation on independent data. Grounded in
+object-oriented programming, data structures and algorithms, Agile, and
+DevOps.</p>
+<h2>Education</h2>
+<p><strong>University of Tennessee, Knoxville</strong> Aug 2022 - Aug
+2026</p>
+<p>Ph.D., Data Science and Engineering. GPA 3.95/4.00.</p>
+<p><strong>Monash University Malaysia</strong> &middot; Oct 2017 - Oct 2021</p>
+<p>B.Eng., Software Engineering.</p>
+<h2>Publications</h2>
+<p><strong>Tahmin N</strong>, Chinthala L, Marsico F, Buonaiuto S,
+Mohammed A, Carlisle A, Gautam Y, Colonna V, Mersha T, Davis RL,
+Khojandi A. Machine learning models incorporating genotype and ancestry
+improve severe asthma risk prediction. <em>Scientific Reports</em> 15,
+40243 (2025). <a
+href="">doi.org/10.1038/s41598-025-24080-x</a></p>
+<p><strong>Tahmin N</strong>, Chinthala LK, Mersha TB, Davis RL,
+Khojandi A. X-Admix: An Interpretable Multimodal Cross-Attention
+Framework for Integrating Genotype, Local Ancestry, and Social Drivers
+of Health in Admixed African American Populations. <em>medRxiv</em>
+preprint (2026); under review at PLOS Computational Biology. <a
+href="">doi.org/10.64898/2026.09.03.26362179</a></p>
+<p>Pokhrel D, <strong>Tahmin N</strong>, Carlisle A, Mersha T, Davis RL,
+Khojandi A. Assessing the Role of Social Determinants in Asthma Across
+Racial Groups: A Comparative Model Analysis. <em>IEEE SIEDS</em> (2025).
+<a href="">doi.org/10.1109/SIEDS65500.2025.11021139</a></p>
+<p>Predicting Precision Inhaled Corticosteroids Response in Asthma
+Patients. Presented at the ASHG Annual Meeting 2023, Abstract
+2023-A-1763-ASHG.</p>
+<p>Integrating genomics, local ancestry, and social drivers of health
+(SDOH) on asthma medication response prediction. Presented at ASHG
+Annual Meeting 2023 and INFORMS Annual Meeting 2024 and 2025.</p>
+<h2>Projects</h2>
+<p><strong>Multimodal Deep Learning and LLM Pipelines for
+High-Dimensional Prediction</strong> &middot; Aug 2022 - Jul 2026</p>
+<p><em>University of Tennessee, Knoxville</em></p>
+<ul>
+<li><p><strong>Model architecture and training.</strong> Designed and
+implemented X-Admix in PyTorch: a three-stream deep learning model with
+pairwise cross-attention and a learned softmax-gated fusion layer.
+Reached AUC 0.771 on a low-signal, high-dimensional prediction task
+where tuned classical machine learning baselines stayed near chance (AUC
+0.566 or lower), and the trend held on a second, independent dataset
+roughly 3x larger.</p></li>
+<li><p><strong>LLM fine-tuning and input design (ongoing).</strong>
+Benchmarked four serialization schemes for feeding structured tabular
+data to pretrained language models under a fixed token budget.
+Compressed encodings beat verbose prose (AUC 0.71 vs. 0.63) by fitting
+far more records into the context window. Designed an
+embedding-injection scheme that decouples information per record from
+token cost and extends to unseen inputs without adding
+parameters.</p></li>
+<li><p><strong>Model evaluation and explainability.</strong> Built an
+attribution system combining feature ablation, gradient-based
+attribution (Captum), and SHAP, with a leave-one-component-out ablation
+protocol and a consensus ranking based on cross-fold
+reproducibility.</p></li>
+<li><p><strong>ML pipelines for high-dimensional data.</strong> Built
+feature engineering, feature selection, and ensemble pipelines (Lasso,
+RFE, Elastic Net, Random Forest, stacking) for data with about 5 million
+features and 248 samples; the stacked model beat single-source baselines
+by 5 AUC points. Published in Scientific Reports (2025).</p></li>
+<li><p><strong>Cloud and GPU training.</strong> Ran data engineering and
+GPU model training on Google Cloud and the All of Us Researcher
+Workbench with PySpark, experiment tracking in Weights and Biases, and
+version control in Git.</p></li>
+</ul>
+<p><strong>Advisor, Vertically Integrated Program (VIP) Team, Criminal
+Sentences Project</strong><em>, Human-Augmented Analytics Group</em></p>
+<ul>
+<li><p>Advised a cross-functional student team building Named Entity
+Recognition (NER) natural language processing models on federal court
+records. Supervised evaluation criteria and error analysis, and mentored
+the team on data preparation, NER training and validation, and LLM-based
+labeling automation.</p></li>
+</ul>
+<p><strong>Social Determinants in Asthma Across Racial Groups: A
+Comparative Model Analysis</strong></p>
+<ul>
+<li><p>Mentored a junior Ph.D. student to build interpretable machine
+learning models with targeted ablations; oversaw end-to-end study
+design. Published at IEEE SIEDS 2025.</p></li>
+</ul>
+<h2>Skills</h2>
+<p><strong>Programming Languages:</strong> Python, SQL, Java, C, C++, R,
+MATLAB</p>
+<p><strong>Machine Learning and Deep Learning:</strong> PyTorch,
+TensorFlow, Transformers, Hugging Face, Large Language Models (LLM),
+fine-tuning, PEFT/LoRA, scikit-learn, Pandas, NumPy</p>
+<p><strong>Evaluation and Explainability:</strong> Captum, SHAP,
+ablation studies, cross-validation, hyperparameter tuning, Weights and
+Biases</p>
+<p><strong>Data and Infrastructure:</strong> PySpark, Google Cloud,
+Google Cloud Storage, GPU training, Oracle, Git/GitHub, Power BI</p>
+<p><strong>Software Engineering:</strong> Object-oriented programming
+(OOP), data structures and algorithms, Agile methodology, software
+quality assurance, DevOps</p>
+<h2>Professional Experience</h2>
+<p><strong>University of Tennessee, Knoxville</strong><em>, Graduate
+Research Assistant</em> &middot; Aug 2022 - Jul 2026</p>
+<p>Designed scalable, reliable, and interpretable AI, deep learning, and
+LLM workflows; data engineering and fusion for multimodal datasets;
+worked in a cross-disciplinary team.</p>
+<p><strong>ITQAN Analytics and Software Limited</strong><em>, Developer
+Intern</em> &middot; Mar 2022 - Jul 2022</p>
+<p>Developed Python data engineering pipelines and Power BI dashboards
+for data visualization.</p>
+<p><strong>Monstar Lab Bangladesh</strong><em>, Frontend Intern</em> Dec
+2019 - Feb 2020</p>
+<p>Developed chatbot interfaces using AngularJS and Node.js with senior
+mentors.</p>
+
+<p class="upd">Last updated November 2026</p>
+</main></body></html>
